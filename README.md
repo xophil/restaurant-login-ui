@@ -20,12 +20,12 @@ This was a Technical Interview Project that I had to submit.
 - **React Icons**
 
 📄 Pages
-/Home – Main login/signup screen
-/Policy – Privacy policies
-/Terms - Terms and Conditions
+- /Home – Main login/signup screen
+- /Policy – Privacy policies
+- /Terms - Terms and Conditions
 
 🙋‍♂️ Author
 Sophil Sthapit
-📧 sophilsthapit01@gmail.com
-GitHub: https://github.com/xophil/
-X: https://x.com/sphlsth
+- Email: sophilsthapit01@gmail.com
+- GitHub: https://github.com/xophil/
+- X: https://x.com/sphlsth
