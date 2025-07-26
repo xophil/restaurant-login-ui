@@ -18,7 +18,7 @@ function Home(){
         {/**BACKGROUND WITH DOTS */}
         <div className="bg-[url('/public/dots.svg')] bg-repeat flex justify-center items-center min-h-screen">
             {/**THE MAIN WHITE CONTAINER */}
-        <div id="container" className='bg-white p-2 m-2 text-center w-130 h-150'> 
+        <div id="container" className='bg-white text-center w-100 h-150 md:w-130 h-150 p-2'> 
 
             <div className='p-5'> {/**TO ADJUST THE MARGINS WITHIN THE WHITE CONTAINER */}
 
@@ -29,13 +29,13 @@ function Home(){
             
             {/**This is for Phone Number Input Field */}
             <form> {/**This is for entering phone number ---- the container for it */}
-                <div className='flex flex-row gap-2 border-1 rounded-md w-110 h-12 mx-3 border-gray-300'>
+                <div className='flex flex-row gap-2 border-1 rounded-md w-81 h-12 mx-3 border-gray-300 md:w-110 h-12'>
                     {/**This is the phone number input field, using react-phone-input-2 */}
                     <PhoneInput                                                         
                             country={'np'}
                             value={phone}
                             onChange={setPhone}
-                            inputClass=' !h-full !border-none !pl-4 !text-[16px]'
+                            inputClass=' !h-full !border-none !pl-20 !text-[16px] md:!pl-4'
                             buttonClass='!bg-white !p-4 !border-r !border-gray-200'
                             inputProps={{
                                 name: 'phone',
@@ -47,7 +47,7 @@ function Home(){
 
                 <p className='policy'>By signing up, you agree to out <Link to="/Policy" className='links'>Privacy Policies</Link> & <Link to="/Terms" className='links'>Terms and Conditions</Link> </p>
 
-                <input type='submit' className='bg-[#d90819] rounded-md w-110 h-10 m-3 text-white cursor-pointer' value="Continue"/> {/**SUBMIT BUTTON */}
+                <input type='submit' className='bg-[#d90819] rounded-md w-81 h-10 m-3 text-white cursor-pointer md:w-110 h-10' value="Continue"/> {/**SUBMIT BUTTON */}
             </form>
 
             <div className='flex flex-row gap-2 items-center justify-center p-3'>
@@ -57,9 +57,9 @@ function Home(){
             </div>                    
             
 
-            <button id="log-btn" className='flex flex-row items-center justify-center gap-2 rounded-md border-1 p-2 px-5 cursor-pointer w-110 h-10 m-2 border-gray-300'> <FcGoogle id='icon'/> Continue with Google</button>
-            <button id="log-btn" className='flex flex-row items-center justify-center gap-2 rounded-md border-1 p-2 px-5 cursor-pointer w-110 h-10 m-2 border-gray-300'> <FaApple id='icon'/> Continue with Apple</button>
-            <button id="log-btn" className='flex flex-row items-center justify-center gap-2 rounded-md border-1 p-2 px-5 cursor-pointer w-110 h-10 m-2 border-gray-300'> <MdOutlineEmail id='icon'/> Use email instead</button>
+            <button id="log-btn" className='flex flex-row items-center justify-center gap-2 rounded-md border-1 p-2 px-5 cursor-pointer w-81 h-10 m-2 border-gray-300 md:w-110 h-10'> <FcGoogle id='icon'/> Continue with Google</button>
+            <button id="log-btn" className='flex flex-row items-center justify-center gap-2 rounded-md border-1 p-2 px-5 cursor-pointer w-81 h-10 m-2 border-gray-300 md:w-110 h-10'> <FaApple id='icon'/> Continue with Apple</button>
+            <button id="log-btn" className='flex flex-row items-center justify-center gap-2 rounded-md border-1 p-2 px-5 cursor-pointer w-81 h-10 m-2 border-gray-300 md:w-110 h-10'> <MdOutlineEmail id='icon'/> Use email instead</button>
 
 
 
