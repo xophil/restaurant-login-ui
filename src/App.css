@@ -1,0 +1,51 @@
+body{
+  background-color: #fafafb;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#container{
+  border-radius: 25px;
+  box-shadow: 0 10px 15px #dbdbdc;
+}
+
+.header{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 1000;
+  margin: 5px;
+}
+#sub-header{
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+#c-icon{
+  width: 50px;
+  border: 0;
+}
+
+#usr-input{
+  border:0;
+  padding-left: 10px;
+}
+
+#usr-input:focus{
+  border: 0;
+}
+
+#icon{
+  font-size: 25px;
+}
+
+.policy{
+  text-align: left;
+  font-size: 13px;
+  margin: 25px 0 20px 12px;
+}
+
+.links{
+  font-weight: 600;
+  text-decoration: underline;
+}
