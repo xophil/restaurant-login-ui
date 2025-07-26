@@ -27,4 +27,5 @@ This was a Technical Interview Project that I had to submit.
 🙋‍♂️ Author
 Sophil Sthapit
 📧 sophilsthapit01@gmail.com
-🔗 GitHub | LinkedIn
+GitHub: https://github.com/xophil/
+X: https://x.com/sphlsth
